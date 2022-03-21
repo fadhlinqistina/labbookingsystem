@@ -1,0 +1,215 @@
+html,body{
+	margin-top: 0;
+	padding: 0;
+	width: 100%;
+}
+body{
+	height: 100vh;
+	background-image: url("SKPK3.jpg");
+	background-repeat: no-repeat;
+
+}
+
+.buttonA{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+.buttonA{
+	background: black;
+	color: #ccc;
+	width: 240px;
+	height: 80px;
+	border:3px solid #992828;
+	font-size: 25px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+
+}
+.buttonA:focus{
+	outline: none;
+}
+
+.buttonA:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #992828;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+.buttonA:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #992828;
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-100px) scaleX(-15deg);
+}
+
+.buttonA:hover:before {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.buttonA:hover:after {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+.buttonA:hover {
+  background: #992828;
+  cursor: pointer;
+}
+
+
+.buttonC{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.buttonC{
+	background: black;
+	color: #ccc;
+	width: 240px;
+	height: 80px;
+	border:3px solid #39ca74;
+	font-size: 25px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+
+}
+.buttonC:focus{
+	outline: none;
+}
+
+.buttonC:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #39ca74;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+.buttonC:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #39ca74;
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-100px) scaleX(-15deg);
+}
+
+.buttonC:hover:before {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.buttonC:hover:after {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+.buttonC:hover {
+  background: #39ca74;
+  cursor: pointer;
+}
+
+.buttonT{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.buttonT{
+	background: black;
+	color: #ccc;
+	width: 240px;
+	height: 80px;
+	border:3px solid #423289;
+	font-size: 25px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+
+}
+.buttonT:focus{
+	outline: none;
+}
+
+.buttonT:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #423289;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+.buttonT:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #423289;
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-100px) scaleX(-15deg);
+}
+
+.buttonT:hover:before {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.buttonT:hover:after {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+.buttonT:hover {
+  background: #423289;
+  cursor: pointer;
+}
+
